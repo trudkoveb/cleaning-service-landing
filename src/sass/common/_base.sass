@@ -1,0 +1,90 @@
+body
+    color: $color-default
+    font-family: $font-reg
+.content
+    width: 1144px
+    margin: 0 auto
+
+a
+    text-decoration: none
+
+input, button, textarea
+    outline: none
+    border: none
+    background-color: transparent
+    padding: 0
+
+textarea
+    resize: none
+
+button
+    cursor: pointer
+
+div .owl-carousel .owl-dots.disabled
+    display: block
+    margin-top: 50px
+    text-align: center
+    .owl-dot
+        background-color: #e5eaee
+        border-radius: 4px
+        width: 14px
+        height: 14px
+        &:not(:last-child)
+            margin-right: 20px
+        &.active
+            background-color: $color-blue
+
+// svg icons
+
+// common class
+
+.btn-green
+    background: $color-green
+    font-family: $font-bold
+    font-size: 10px
+    letter-spacing: 1px
+    text-transform: uppercase
+    color: #fff
+    padding: 15px 40px
+    border-radius: 20px
+
+.main-title
+    font-family: $font-bold
+    font-size: 36px
+    line-height: 63px
+    letter-spacing: -1px
+    color: $color-default
+
+.main-info
+    font-family: $font-reg
+    font-size: 14px
+    line-height: 30px
+    letter-spacing: -1px
+    color: $color-second
+    opacity: 0.8
+    max-width: 60%
+    margin-bottom: 50px
+
+.btn-blue
+    background: $color-blue
+    box-shadow: 0px 4px 14px rgba(76, 186, 216, 0.5)
+    border-radius: 100%
+    width: 40px
+    height: 40px
+    display: flex
+    justify-content: center
+    align-items: center
+
+.badge
+    font-family: $font-reg
+    font-size: 14px
+    letter-spacing: -1px
+    background: #faec8c
+    border-radius: 20px
+    padding: 5px 15px
+
+// Buttons
+
+// mixins
+@mixin example
+    padding-left: 65px
